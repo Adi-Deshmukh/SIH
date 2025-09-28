@@ -1,0 +1,175 @@
+# Railway Track Management System - User Manual
+
+## Table of Contents
+1. [System Overview](#system-overview)
+2. [Controller Dashboard](#controller-dashboard)
+3. [Loco Pilot Interface](#loco-pilot-interface)
+4. [Emergency Procedures](#emergency-procedures)
+5. [Troubleshooting](#troubleshooting)
+
+## System Overview
+
+The Railway Track Management System provides real-time monitoring and control of railway operations through two main interfaces:
+
+- **Controller Dashboard**: Web-based interface for section controllers
+- **Loco Pilot Interface**: Mobile-optimized interface for train operators
+
+### Accessing the System
+1. Open your web browser
+2. Navigate to the system URL
+3. Use the navigation buttons to switch between interfaces:
+   - **Original Map**: Basic railway visualization
+   - **Controller Dashboard**: Full administrative controls
+   - **Loco Pilot**: Mobile driver interface
+
+## Controller Dashboard
+
+### Main Features
+
+#### Interactive Map
+- **Real-time Train Tracking**: Live positions of all active trains
+- **Route Visualization**: Complete railway network with track details
+- **Search Functionality**: Find routes between stations
+- **Zoom Controls**: Navigate between regional and detailed views
+
+#### KPI Panel (Bottom of Screen)
+- **Active Trains**: Current number of trains in operation
+- **On Schedule**: Trains running on time
+- **Delayed**: Trains behind schedule
+- **Rerouted**: Trains on alternative routes
+
+### Using the Route Search
+1. Enter **From Station** in the left search box
+2. Enter **To Station** in the right search box
+3. Click **Search Route** button
+4. View marked stations and optimal path on map
+
+### Reading Train Status
+- **Green Markers**: Trains on schedule
+- **Red Markers**: Delayed trains
+- **Orange Markers**: Rerouted trains
+
+## Loco Pilot Interface
+
+### Mobile Interface Layout
+
+#### Header Section
+- **Train Information**: Train number and route name
+- **Current Speed**: Real-time speed display
+- **Status Indicators**: Operating status and alerts
+
+#### Alert Panel
+- **Warning Alerts**: Speed restrictions and track conditions
+- **Information Updates**: Next station and ETA information
+- **Emergency Notifications**: Critical safety alerts
+
+#### Mini-Map
+- **Current Position**: Your train's location (green marker)
+- **Railway Network**: Surrounding track infrastructure
+- **Navigation**: Pinch to zoom, drag to pan
+
+#### Status Panel (Bottom)
+- **Next Station**: Distance and name of upcoming station
+- **ETA**: Estimated time of arrival
+- **Current Time**: Real-time clock
+
+### Understanding Alerts
+
+#### Alert Types
+- ⚠️ **Warning**: Speed restrictions, signal changes
+- ℹ️ **Information**: Station updates, schedule changes
+- 🚨 **Emergency**: Critical safety alerts requiring immediate action
+
+#### Alert Actions
+1. **Read the alert message carefully**
+2. **Note the time stamp**
+3. **Take appropriate action as indicated**
+4. **Acknowledge alerts where required**
+
+### Emergency Button
+- **Location**: Red circular button (bottom right)
+- **Purpose**: Immediate emergency communication
+- **Usage**: Press and hold for 3 seconds to activate
+- **Result**: Alerts control room and nearby trains
+
+## Emergency Procedures
+
+### Signal Failure
+1. **Reduce speed immediately**
+2. **Check for emergency alerts in the interface**
+3. **Use emergency button if needed**
+4. **Follow manual signal protocols**
+5. **Report status to control room**
+
+### Track Obstruction
+1. **Apply emergency brakes**
+2. **Activate emergency button**
+3. **Monitor interface for rerouting instructions**
+4. **Wait for control room guidance**
+5. **Do not proceed without clearance**
+
+### System Failure
+1. **Switch to backup communication**
+2. **Follow standard operating procedures**
+3. **Maintain speed restrictions**
+4. **Report to nearest signal box**
+5. **Wait for system restoration**
+
+## Troubleshooting
+
+### Map Not Loading
+**Problem**: Blank or partially loaded map
+**Solution**:
+1. Check internet connection
+2. Refresh the browser page
+3. Clear browser cache
+4. Try a different browser
+
+### Slow Performance
+**Problem**: Laggy interface or slow updates
+**Solution**:
+1. Close unnecessary browser tabs
+2. Check network speed
+3. Restart the application
+4. Contact technical support
+
+### Location Not Updating
+**Problem**: Train position not showing correctly
+**Solution**:
+1. Check GPS signal strength
+2. Verify train ID is correct
+3. Report to control room
+4. Switch to manual tracking
+
+### Missing Alerts
+**Problem**: Not receiving expected notifications
+**Solution**:
+1. Check alert panel for hidden messages
+2. Verify train registration in system
+3. Test emergency button functionality
+4. Contact system administrator
+
+## Technical Support
+
+### Contact Information
+- **Control Room**: [Emergency Number]
+- **Technical Support**: [Support Number]  
+- **System Administrator**: [Admin Contact]
+
+### Reporting Issues
+When reporting problems, provide:
+1. **Train Number/Controller ID**
+2. **Time of issue**
+3. **Description of problem**
+4. **Screenshots if possible**
+5. **Current location**
+
+### Regular Maintenance
+- **System updates**: Automatic during off-peak hours
+- **Data backup**: Daily at midnight
+- **Performance monitoring**: Continuous
+- **User training**: Monthly sessions available
+
+---
+
+*For additional support or training, contact the Railway Track Management System support team.*

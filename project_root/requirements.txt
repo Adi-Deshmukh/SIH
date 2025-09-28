@@ -1,0 +1,55 @@
+# Railway Track Management System - Requirements
+
+# Core Python Dependencies
+flask>=3.0.0
+flask-cors>=4.0.0
+pulp>=2.8.0
+pandas>=2.1.0
+numpy>=1.25.0
+geojson>=3.1.0
+python-json-logger>=2.0.7
+
+# Data Processing and Analysis
+scipy>=1.11.0
+scikit-learn>=1.3.0
+matplotlib>=3.8.0
+
+# Web Server and API
+gunicorn>=21.2.0
+werkzeug>=3.0.0
+itsdangerous>=2.1.2
+click>=8.1.7
+
+# Testing Dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.1
+pytest-flask>=1.2.0
+
+# Development Dependencies
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+pre-commit>=3.3.3
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+requests>=2.31.0
+jsonschema>=4.19.0
+
+# Geographical and Mapping
+shapely>=2.0.0
+folium>=0.14.0
+
+# Performance Monitoring
+psutil>=5.9.0
+memory-profiler>=0.60.0
+
+# Production Dependencies
+redis>=4.6.0
+
+# Optional ML Dependencies for Future Enhancement
+# scikit-optimize>=0.9.0
+# tensorflow>=2.13.0
+# torch>=2.0.1

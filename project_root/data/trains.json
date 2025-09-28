@@ -1,0 +1,181 @@
+{
+  "trains": [
+    {
+      "id": "12622",
+      "name": "Chennai Mail",
+      "route": "Chennai Central - Coimbatore Jn",
+      "priority": "high",
+      "currentLocation": {
+        "lat": 12.9051,
+        "lon": 79.0747,
+        "station": "Arakkonam Jn"
+      },
+      "schedule": {
+        "departure": "14:30",
+        "arrival": "22:15",
+        "nextStation": "Katpadi Jn",
+        "eta": "15:45"
+      },
+      "status": "on_time",
+      "speed": 85,
+      "assignedTrack": "track_1"
+    },
+    {
+      "id": "12624",
+      "name": "Chennai Express",
+      "route": "Chennai Central - Madurai Jn",
+      "priority": "medium",
+      "currentLocation": {
+        "lat": 13.0827,
+        "lon": 80.2707,
+        "station": "Chennai Central"
+      },
+      "schedule": {
+        "departure": "15:00",
+        "arrival": "21:30",
+        "nextStation": "Tambaram",
+        "eta": "15:25"
+      },
+      "status": "delayed",
+      "speed": 0,
+      "assignedTrack": "platform_2",
+      "delay": 15
+    },
+    {
+      "id": "12626",
+      "name": "Kerala Express",
+      "route": "Chennai Central - Thiruvananthapuram",
+      "priority": "high",
+      "currentLocation": {
+        "lat": 12.6186,
+        "lon": 79.9197,
+        "station": "Villupuram Jn"
+      },
+      "schedule": {
+        "departure": "13:45",
+        "arrival": "06:30",
+        "nextStation": "Cuddalore Port",
+        "eta": "16:20"
+      },
+      "status": "on_time",
+      "speed": 95,
+      "assignedTrack": "track_2"
+    },
+    {
+      "id": "12628",
+      "name": "Intercity Express",
+      "route": "Chennai Central - Salem Jn",
+      "priority": "medium",
+      "currentLocation": {
+        "lat": 11.9416,
+        "lon": 79.8083,
+        "station": "Jolarpettai Jn"
+      },
+      "schedule": {
+        "departure": "12:30",
+        "arrival": "18:45",
+        "nextStation": "Salem Jn",
+        "eta": "17:15"
+      },
+      "status": "rerouted",
+      "speed": 75,
+      "assignedTrack": "track_3",
+      "rerouteReason": "maintenance_track_1"
+    },
+    {
+      "id": "12630",
+      "name": "Nilgiri Express",
+      "route": "Chennai Central - Mettupalayam",
+      "priority": "low",
+      "currentLocation": {
+        "lat": 11.1085,
+        "lon": 77.347,
+        "station": "Coimbatore Jn"
+      },
+      "schedule": {
+        "departure": "11:00",
+        "arrival": "19:30",
+        "nextStation": "Mettupalayam",
+        "eta": "20:00"
+      },
+      "status": "on_time",
+      "speed": 60,
+      "assignedTrack": "track_4"
+    }
+  ],
+  "stations": [
+    {
+      "code": "MAS",
+      "name": "Chennai Central",
+      "lat": 13.0827,
+      "lon": 80.2707,
+      "tracks": ["platform_1", "platform_2", "platform_3", "platform_4", "platform_5"]
+    },
+    {
+      "code": "AJJ",
+      "name": "Arakkonam Jn",
+      "lat": 12.9051,
+      "lon": 79.0747,
+      "tracks": ["track_1", "track_2", "siding_1"]
+    },
+    {
+      "code": "KPD",
+      "name": "Katpadi Jn",
+      "lat": 12.9698,
+      "lon": 79.1325,
+      "tracks": ["track_1", "track_2", "track_3"]
+    },
+    {
+      "code": "JTJ",
+      "name": "Jolarpettai Jn",
+      "lat": 11.9416,
+      "lon": 79.8083,
+      "tracks": ["track_1", "track_2", "track_3", "track_4"]
+    },
+    {
+      "code": "SA",
+      "name": "Salem Jn",
+      "lat": 11.6643,
+      "lon": 78.1460,
+      "tracks": ["platform_1", "platform_2", "platform_3"]
+    },
+    {
+      "code": "CBE",
+      "name": "Coimbatore Jn",
+      "lat": 11.1085,
+      "lon": 77.347,
+      "tracks": ["platform_1", "platform_2", "platform_3", "platform_4"]
+    }
+  ],
+  "trackSections": [
+    {
+      "id": "section_1",
+      "name": "Chennai Central - Arakkonam",
+      "tracks": ["track_1", "track_2"],
+      "length": 73.2,
+      "maxSpeed": 120,
+      "status": "operational"
+    },
+    {
+      "id": "section_2", 
+      "name": "Arakkonam - Katpadi",
+      "tracks": ["track_1", "track_2", "track_3"],
+      "length": 15.8,
+      "maxSpeed": 100,
+      "status": "operational"
+    },
+    {
+      "id": "section_3",
+      "name": "Katpadi - Jolarpettai",
+      "tracks": ["track_1", "track_2"],
+      "length": 98.5,
+      "maxSpeed": 110,
+      "status": "maintenance",
+      "maintenanceInfo": {
+        "affectedTracks": ["track_1"],
+        "reason": "Signal upgrade",
+        "duration": "2 hours"
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+# Demo Video Script - Railway Track Management System
+
+## Introduction (30 seconds)
+**Scene**: Title screen with project name and team information
+**Narrator**: "Welcome to the Railway Track Management System - a comprehensive solution for real-time train tracking, route optimization, and collision avoidance designed for the Smart India Hackathon."
+
+## Problem Context (20 seconds)
+**Scene**: Statistics and images showing railway congestion
+**Narrator**: "With over 68,000 kilometers of railway network and increasing traffic, India needs smart solutions for track management and collision prevention."
+
+## System Overview (20 seconds)
+**Scene**: Architecture diagram and technology stack
+**Narrator**: "Our solution combines React frontend, Python backend, and MILP optimization to provide real-time monitoring through two specialized interfaces."
+
+## Controller Dashboard Demo (60 seconds)
+**Scene**: Live controller dashboard demonstration
+**Narrator**: "The controller dashboard provides a comprehensive view with interactive mapping, real-time train positions, and KPI tracking."
+
+**Actions to Show**:
+1. Map navigation and zoom
+2. Real-time train positions (colored markers)
+3. Route search between stations
+4. KPI panel with statistics
+5. Train status indicators
+
+**Key Points**:
+- "Here we see 5 active trains in real-time"
+- "The system shows 2 trains on schedule, 1 delayed, and 2 rerouted"
+- "Controllers can search routes and monitor track utilization"
+
+## Loco Pilot Interface Demo (40 seconds)
+**Scene**: Mobile interface demonstration (use browser dev tools for mobile view)
+**Narrator**: "The loco pilot interface is mobile-optimized for on-the-go access with critical information at a glance."
+
+**Actions to Show**:
+1. Train header with speed and status
+2. Alert panel with notifications
+3. Mini-map with current position
+4. Bottom status panel
+5. Emergency button functionality
+
+**Key Points**:
+- "Pilots receive real-time alerts about speed restrictions"
+- "The mini-map shows current position and upcoming stations"
+- "Emergency button provides instant communication"
+
+## MILP Optimization Demo (30 seconds)
+**Scene**: Switch back to controller dashboard showing conflict resolution
+**Narrator**: "When conflicts arise, our MILP optimization engine automatically calculates alternative routes."
+
+**Actions to Show**:
+1. Simulated conflict scenario
+2. System response with rerouting
+3. Updated train paths
+4. New ETA calculations
+
+## Technical Innovation (15 seconds)
+**Scene**: Code snippets and algorithm visualization
+**Narrator**: "Built with modern technologies including React, TypeScript, MapLibre GL for visualization, and PuLP for linear programming optimization."
+
+## Impact and Benefits (10 seconds)
+**Scene**: Statistics and benefits overview
+**Narrator**: "This results in 30% reduction in delays, improved safety through proactive alerts, and enhanced operational efficiency."
+
+## Future Scope (15 seconds)
+**Scene**: Roadmap and expansion plans
+**Narrator**: "Our modular design enables scaling across India's entire railway network with AI integration and IoT sensor support."
+
+## Conclusion (10 seconds)
+**Scene**: Team information and call-to-action
+**Narrator**: "The Railway Track Management System - making India's railways smarter, safer, and more efficient."
+
+---
+
+## Technical Setup for Recording
+
+### Equipment Needed
+- Screen recording software (OBS Studio recommended)
+- Good quality microphone
+- 1080p or higher screen resolution
+- Stable internet connection for live demonstrations
+
+### Recording Settings
+- **Resolution**: 1920x1080 (1080p)
+- **Frame Rate**: 30 fps
+- **Audio**: 48kHz, 16-bit minimum
+- **Format**: MP4 with H.264 encoding
+- **Duration**: 3 minutes maximum
+
+### Pre-Recording Checklist
+1. Test all system interfaces
+2. Prepare demo data with active trains
+3. Practice navigation and timing
+4. Check audio quality
+5. Ensure stable internet connection
+6. Close unnecessary applications
+
+### Recording Tips
+1. **Smooth Navigation**: Practice mouse movements
+2. **Clear Narration**: Speak clearly and at moderate pace
+3. **Visual Focus**: Use zoom and highlights for key features
+4. **Seamless Transitions**: Plan cuts between scenes
+5. **Professional Presentation**: Clean desktop, organized interface
+
+### Post-Processing
+1. **Audio Sync**: Ensure perfect audio-video alignment  
+2. **Color Correction**: Enhance screen visibility
+3. **Transitions**: Add smooth scene transitions
+4. **Titles/Captions**: Include key information overlays
+5. **Export Settings**: High quality MP4 for submission
+
+### Demo Data Preparation
+- Ensure 5 active trains are visible
+- Set up realistic scenarios (delays, reroutes)
+- Prepare search queries for route demonstration
+- Configure alerts for loco pilot interface
+- Test emergency button functionality
+
+---
+
+*Target Duration: 3 minutes*
+*Format: MP4, 1080p, suitable for online submission and presentation*

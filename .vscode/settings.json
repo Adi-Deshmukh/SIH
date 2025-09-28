@@ -1,0 +1,32 @@
+{
+    "python.defaultInterpreterPath": "./project_root/SIH/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.useEnvFile": true,
+    "python.envFile": "${workspaceFolder}/project_root/.env",
+    "python.analysis.extraPaths": [
+        "./project_root/SIH/Lib/site-packages"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.languageServer": "Pylance",
+    "pylance.insidersChannel": "off",
+    "cSpell.words": [
+        "maplibregl",
+        "maplibre",
+        "basemap",
+        "openmaptiles",
+        "minzoom",
+        "maxzoom",
+        "geojson",
+        "lngLat",
+        "fitBounds",
+        "flyTo",
+        "railwaygl",
+        "stadiamaps",
+        "openstreetmap",
+        "pbf",
+        "tileSize",
+        "glyphs",
+        "fontstack"
+    ]
+}
